@@ -16,6 +16,8 @@
             <?php nav_menu(); ?>
         </nav>
     </header>
+    
+    Welcome <?php echo $_POST["fname"]; ?>!<br />
 
     <article>
         <h2><?php page_title(); ?></h2>
