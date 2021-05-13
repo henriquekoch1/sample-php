@@ -21,6 +21,8 @@
         <h2><?php page_title(); ?></h2>
         <?php page_content(); ?>
     </article>
+    
+    Welcome <?php echo $_POST["fname"]; ?>!<br />
 
     <footer>
         <small>&copy;<?php echo date('Y'); ?> <?php site_name(); ?>.<br><?php site_version(); ?></small>
